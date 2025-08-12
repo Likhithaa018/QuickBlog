@@ -11,10 +11,7 @@ await connectDB()
 
 //MiddleWares
 // app.use(cors()) //Enables CORS for all incoming requests.
-app.use(cors({
-  origin: ['https://your-vercel-app.vercel.app'],
-  credentials: true
-}));
+app.use(cors());
 
 app.use(express.json()) //Tells Express to automatically parse incoming JSON in the request body.
 
