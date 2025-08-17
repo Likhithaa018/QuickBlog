@@ -1,12 +1,11 @@
 import express from 'express'
-import dotenv from "dotenv";
-// import'dotenv/config'
+ import'dotenv/config'
 import cors from 'cors'
 import connectDB from './configs/db.js';
 import adminRouter from './routes/adminRoutes.js';
 import blogRouter from './routes/blogRoutes.js';
 
-dotenv.config();
+// dotenv.config();
 
 
 const app = express(); // creats an instance of express app

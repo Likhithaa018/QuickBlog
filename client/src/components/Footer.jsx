@@ -9,9 +9,9 @@ const Footer = () => {
         gap-10 py-10 border-b border-gray-500/30 text-gray-500'>
            <div>
                 <img src={assets.logo} alt='logo' className='w-32 sm:w-44'/>
-                <p className='max-w-[410px] mt-6'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur consequatur 
-                    et qui ad, id optio nemo! Est porro distinctio nobis obcaecati maxime minima ad nulla,
-                     beatae unde delectus animi corrupti!</p>
+                <p className='max-w-[410px] mt-6'>At Quickblog, we bring you simple, useful, and enjoyable reads—from daily tips to inspiring insights.
+                    Stay updated with fresh articles, expert tips, and stories that inspire growth!!
+                </p>
             </div>
             <div className='flex flex-wrap justify-between w-full
             md:w-[45%] gap-5'>
